@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>UnicodePlus - Search for Unicode characters</title>
+        <meta name="description" content="Free tool providing information about any Unicode character." />
+        <meta name="robots" content="index,follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="theme-color" content="#4239c0">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
+        <link rel="manifest" href="/manifest.webmanifest">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="UnicodePlus">
+
+        
+
+                            </head>
+    <body>
+        <div id="search-bar">
+            <span id="logo"><a rel="home" href="/">UnicodePlus</a></span>
+
+            <div class="search-form">
+                <div class="form-wrapper">
+                    <form action="/search" method="post" role="search">
+                        <div class="search-wrapper">
+                            <div class="input-wrapper">
+                                <input aria-label="Search"
+                                       id="query"
+                                       autocapitalize="off"
+                                       autocomplete="off"
+                                       spellcheck="false"
+                                       class="search-input"
+                                       name="q"
+                                       value=""
+                                       type="text"
+                                       placeholder="Unicode Character Search (Σ, U+03A3, Sigma, &amp;#931;)">
+                                <input name="r" value="r" type="hidden">
+
+                                <div id="autocomplete-box"><ul></ul></div>
+                            </div>
+
+                            <button class="search-button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <main id="main">
+            <header id="header" class="m-section clear">
+                <div class="header-wrapper">
+                                            
+                        <div class="header-category">
+                            <h1>Unicode 14</h1>
+                            <p role="doc-subtitle">Search for Unicode characters</p>
+                        </div>
+                                    </div>
+            </header>
+
+            <div id="content" class="content-wrapper">
+                
+    <section>
+        <header class="section-header">
+            <h2>What is UnicodePlus?</h2>
+        </header>
+        <div class="section-description">
+            <p>UnicodePlus.com is a free tool providing <strong>information about any Unicode character</strong>, such as its name, its codepoint, or its classification (plane, block, script, etc.).</p>
+
+            <p><strong>Search</strong> for any Unicode character either by typing it directly in the search field (<span class="example">A</span>), or simply by typing its codepoint (<span class="example">U+0041</span>), name (<span class="example">Latin Capital Letter A</span>), or HTML code (Entity, Hex, Decimal).</p>
+
+            <p>UnicodePlus will then display the basic <strong>properties</strong> of the character (name, block, version, codepoint), check its bidirectional data, find any related character (<span class="example">e.g., A, Â, Ä, Å</span>), and convert it to HTML, CSS, Javascript, or Python.</p>
+
+                    </div>
+    </section>
+
+    <section>
+        <header class="section-header">
+            <h2>Random characters</h2>
+        </header>
+        <ul class="chars-content chars-list">
+
+                            <li>
+                    <a href="/U+0042"><span>&#x0042;</span> <span>U+0042</span></a>
+                </li>
+                            <li>
+                    <a href="/U+03A3"><span>&#x03A3;</span> <span>U+03A3</span></a>
+                </li>
+                            <li>
+                    <a href="/U+0427"><span>&#x0427;</span> <span>U+0427</span></a>
+                </li>
+                            <li>
+                    <a href="/U+4C53"><span>&#x4C53;</span> <span>U+4C53</span></a>
+                </li>
+                            <li>
+                    <a href="/U+21BA"><span>&#x21BA;</span> <span>U+21BA</span></a>
+                </li>
+                            <li>
+                    <a href="/U+2721"><span>&#x2721;</span> <span>U+2721</span></a>
+                </li>
+                            <li>
+                    <a href="/U+1F610"><span>&#x1F610;</span> <span>U+1F610</span></a>
+                </li>
+                            <li>
+                    <a href="/U+1F4D8"><span>&#x1F4D8;</span> <span>U+1F4D8</span></a>
+                </li>
+                    </ul>
+    </section>
+
+    <section>
+        <header class="section-header">
+            <h2>Popular blocks</h2>
+        </header>
+        <ul class="chars-content curated-list">
+
+                            
+                <li>
+                    <a href="/block/0000">
+                        <span>
+                                                            <span>&#x0041;</span>
+                                                            <span>&#x0042;</span>
+                                                            <span>&#x0043;</span>
+                                                            <span>&#x0044;</span>
+                                                    </span>
+                        <span>Basic Latin</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/0370">
+                        <span>
+                                                            <span>&#x0393;</span>
+                                                            <span>&#x0394;</span>
+                                                            <span>&#x03A3;</span>
+                                                            <span>&#x03A9;</span>
+                                                    </span>
+                        <span>Greek and Coptic</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/0400">
+                        <span>
+                                                            <span>&#x0411;</span>
+                                                            <span>&#x0414;</span>
+                                                            <span>&#x0416;</span>
+                                                            <span>&#x0429;</span>
+                                                    </span>
+                        <span>Cyrillic</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/16A0">
+                        <span>
+                                                            <span>&#x16DF;</span>
+                                                            <span>&#x16D7;</span>
+                                                            <span>&#x16D4;</span>
+                                                            <span>&#x16CB;</span>
+                                                    </span>
+                        <span>Runic</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/1F300">
+                        <span>
+                                                            <span>&#x1F308;</span>
+                                                            <span>&#x1F337;</span>
+                                                            <span>&#x1F431;</span>
+                                                            <span>&#x1F534;</span>
+                                                    </span>
+                        <span>Miscellaneous Symbols and Pictographs</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/1F600">
+                        <span>
+                                                            <span>&#x1F603;</span>
+                                                            <span>&#x1F608;</span>
+                                                            <span>&#x1F60D;</span>
+                                                            <span>&#x1F631;</span>
+                                                    </span>
+                        <span>Emoticons</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/1F900">
+                        <span>
+                                                            <span>&#x1F921;</span>
+                                                            <span>&#x1F92C;</span>
+                                                            <span>&#x1F984;</span>
+                                                            <span>&#x1F9FF;</span>
+                                                    </span>
+                        <span>Supplemental Symbols and Pictographs</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/2700">
+                        <span>
+                                                            <span>&#x2705;</span>
+                                                            <span>&#x2728;</span>
+                                                            <span>&#x274C;</span>
+                                                            <span>&#x270A;</span>
+                                                    </span>
+                        <span>Dingbats</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/20A0">
+                        <span>
+                                                            <span>&#x20AC;</span>
+                                                            <span>&#x20BF;</span>
+                                                            <span>&#x20A4;</span>
+                                                            <span>&#x20BD;</span>
+                                                    </span>
+                        <span>Currency Symbols</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/2190">
+                        <span>
+                                                            <span>&#x2192;</span>
+                                                            <span>&#x21B3;</span>
+                                                            <span>&#x21BB;</span>
+                                                            <span>&#x21E1;</span>
+                                                    </span>
+                        <span>Arrows</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/2200">
+                        <span>
+                                                            <span>&#x2211;</span>
+                                                            <span>&#x221E;</span>
+                                                            <span>&#x221A;</span>
+                                                            <span>&#x2260;</span>
+                                                    </span>
+                        <span>Mathematical Operators</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/1D400">
+                        <span>
+                                                            <span>&#x1D453;</span>
+                                                            <span>&#x1D6B7;</span>
+                                                            <span>&#x1D465;</span>
+                                                            <span>&#x1D505;</span>
+                                                    </span>
+                        <span>Mathematical Alphanumeric Symbols</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/1FA70">
+                        <span>
+                                                            <span>&#x1FA90;</span>
+                                                            <span>&#x1FAC0;</span>
+                                                            <span>&#x1FAB2;</span>
+                                                            <span>&#x1FA9E;</span>
+                                                    </span>
+                        <span>Symbols and Pictographs Extended-A</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/1F680">
+                        <span>
+                                                            <span>&#x1F697;</span>
+                                                            <span>&#x1F6AB;</span>
+                                                            <span>&#x1F6A8;</span>
+                                                            <span>&#x1F6B2;</span>
+                                                    </span>
+                        <span>Transport and Map Symbols</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/2600">
+                        <span>
+                                                            <span>&#x26A1;</span>
+                                                            <span>&#x26D4;</span>
+                                                            <span>&#x2665;</span>
+                                                            <span>&#x2605;</span>
+                                                    </span>
+                        <span>Miscellaneous Symbols</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/1F700">
+                        <span>
+                                                            <span>&#x1F70A;</span>
+                                                            <span>&#x1F71A;</span>
+                                                            <span>&#x1F741;</span>
+                                                            <span>&#x1F72F;</span>
+                                                    </span>
+                        <span>Alchemical Symbols</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/2460">
+                        <span>
+                                                            <span>&#x24B6;</span>
+                                                            <span>&#x2460;</span>
+                                                            <span>&#x24FB;</span>
+                                                            <span>&#x2477;</span>
+                                                    </span>
+                        <span>Enclosed Alphanumerics</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/27F0">
+                        <span>
+                                                            <span>&#x27F3;</span>
+                                                            <span>&#x27F6;</span>
+                                                            <span>&#x27F7;</span>
+                                                            <span>&#x27FC;</span>
+                                                    </span>
+                        <span>Supplemental Arrows-A</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/2900">
+                        <span>
+                                                            <span>&#x290F;</span>
+                                                            <span>&#x2934;</span>
+                                                            <span>&#x2911;</span>
+                                                            <span>&#x2928;</span>
+                                                    </span>
+                        <span>Supplemental Arrows-B</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/25A0">
+                        <span>
+                                                            <span>&#x25BA;</span>
+                                                            <span>&#x25EF;</span>
+                                                            <span>&#x25FC;</span>
+                                                            <span>&#x25CF;</span>
+                                                    </span>
+                        <span>Geometric Shapes</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/2580">
+                        <span>
+                                                            <span>&#x2588;</span>
+                                                            <span>&#x2592;</span>
+                                                            <span>&#x259A;</span>
+                                                            <span>&#x258C;</span>
+                                                    </span>
+                        <span>Block Elements</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/10900">
+                        <span>
+                                                            <span>&#x10900;</span>
+                                                            <span>&#x10904;</span>
+                                                            <span>&#x10913;</span>
+                                                            <span>&#x10902;</span>
+                                                    </span>
+                        <span>Phoenician</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/13000">
+                        <span>
+                                                            <span>&#x13000;</span>
+                                                            <span>&#x13030;</span>
+                                                            <span>&#x132F9;</span>
+                                                            <span>&#x13143;</span>
+                                                    </span>
+                        <span>Egyptian Hieroglyphs</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/1F0A0">
+                        <span>
+                                                            <span>&#x1F0CF;</span>
+                                                            <span>&#x1F0A1;</span>
+                                                            <span>&#x1F0B3;</span>
+                                                            <span>&#x1F0DE;</span>
+                                                    </span>
+                        <span>Playing Cards</span>
+                    </a>
+                </li>
+                            
+                <li>
+                    <a href="/block/1F030">
+                        <span>
+                                                            <span>&#x1F039;</span>
+                                                            <span>&#x1F070;</span>
+                                                            <span>&#x1F04B;</span>
+                                                            <span>&#x1F087;</span>
+                                                    </span>
+                        <span>Domino Tiles</span>
+                    </a>
+                </li>
+                    </ul>
+
+        <button class="load-more" id="load-more-blocks"><span>+</span> Show more</button>
+    </section>
+
+
+    <section>
+        <header class="section-header">
+            <h2>Browse by</h2>
+        </header>
+        <ul class="categories">
+            <li><a class="icon icon-plane"  href="/plane">Planes</a></li>
+            <li><a class="icon icon-block"  href="/block">Blocks</a></li>
+            <li><a class="icon icon-category"  href="/category">Categories</a></li>
+            <li><a class="icon icon-script"  href="/script">Scripts</a></li>
+            <li><a class="icon icon-bidiclass" href="/bidiclass">Bidirectional Classes</a></li>
+            <li><a class="icon icon-combining"  href="/combining">Combining Classes</a></li>
+            <li><a class="icon icon-decomposition"  href="/decomposition">Decomposition</a></li>
+            <li><a class="icon icon-version"  href="/version">Versions</a></li>
+        </ul>
+    </section>
+
+
+            </div>
+        </main>
+
+        <footer id="footer">
+            <div class="footer-bg">
+                <div class="footer-wrapper">
+                    <div class="footer-grid">
+                        <section class="footer-browse">
+                            <h3>Browse By</h3>
+                            <ul>
+                                <li><a href="/plane">Planes</a></li>
+                                <li><a href="/block">Blocks</a></li>
+                                <li><a href="/category">Categories</a></li>
+                                <li><a href="/script">Scripts</a></li>
+                                <li><a href="/bidiclass">Bidirectional</a></li>
+                                <li><a href="/combining">Combining</a></li>
+                                <li><a href="/decomposition">Decomposition</a></li>
+                                <li><a href="/version">Versions</a></li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h3>Feedback</h3>
+                            <span>contact[at]unicodeplus.com</span>
+                        </section>
+
+                        <section class="footer-info">
+                            <span><a href="https://unicodeplus.com">unicodeplus.com</a> &copy; 2021</span>
+                            <span>This site is <strong>not</strong> affiliated with the <a href="https://home.unicode.org/">Unicode Consortium</a> (Unicode Inc.).</span>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+                <script src="scripts.js"></script>
+    </body>
+</html>
